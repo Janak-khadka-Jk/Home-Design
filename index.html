@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+           
+            <ul>
+                <li><a href="#">living hall</a></li>
+                <li><a href="#">Dining</a></li>
+                <li><a href="#">Kitchen</a></li>
+                <li><a href="#">Backyard</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Home Design</h1>
+            <div>
+                <button>
+                    <span></span> Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Home Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Home Design</h1>
+            <nav>
+                <ul>
+                    <li><a href="#living">Living Hall</a></li>
+                    <li><a href="#dining">Dining Area</a></li>
+                    <li><a href="#kitchen">Kitchen</a></li>
+                    <li><a href="#backyard">Backyard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="living" class="living">
+            <div class="container">
+                <h2>Living Hall</h2>
+                <p>Welcome to the living hall. This area is designed for relaxation and social gatherings.</p>
+                </div>
+        </section>
+        <section id="dining" class="dining">
+            <div class="container">
+                <h2>Dining Area</h2>
+                <p>Enjoy your meals in our cozy dining area. Perfect for family dinners and entertaining guests.</p>
+            </div>
+        </section>
+        <section id="kitchen" class="kitchen">
+            <div class="container">
+                <h2>Kitchen</h2>
+                <p>The kitchen is equipped with modern appliances and ample counter space for all your cooking needs.</p>
+            </div>
+        </section>
+        <section id="backyard" class="backyard">
+            <div class="container">
+                <h2>Backyard</h2>
+                <p>Relax in the backyard, a perfect place for outdoor activities and enjoying nature.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Home Design. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Living Hall</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Home Design</h1>
+            <nav>
+                <ul>
+                    <li><a href="#living">Living Hall</a></li>
+                    <li><a href="#dining">Dining Area</a></li>
+                    <li><a href="#kitchen">Kitchen</a></li>
+                    <li><a href="#backyard">Backyard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="living" class="living">
+            <div class="container">
+                <h2>Living Hall</h2>
+                <p>Welcome to the living hall. This area is designed for relaxation and social gatherings. Click on the images to enlarge.</p>
+                <div class="gallery">
+                    <img src="livinghall.jpg" alt="Living Hall 1" class="thumbnail">
+                    <img src="livinghall.jpg" alt="Living Hall 2" class="thumbnail">
+                    <img src="livinghall.jpg" alt="Living Hall 3" class="thumbnail">
+                </div>
+                <div id="modal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="modal-img">
+                    <div id="caption"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Home Design. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
